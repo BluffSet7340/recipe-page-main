@@ -235,7 +235,18 @@ table .value{
 /* adjusting for various screen sizes on mobile */
 /* media query for screen sizes need to be in order? From largest to smallest */
 
-
+@media only screen and (max-width: 750px){
+    .container{
+        width: 600px;
+    }
+    .prep_time{
+        width: 500px;
+    }
+    img{
+        border-radius: 10px;
+        width: 500px;
+    }
+}
 
 @media only screen and (max-width: 426px){
     .container{
@@ -252,7 +263,7 @@ table .value{
     }
     img{
         border-radius: 0;
-        width: 425px;
+        width: 400px;
     }
 }
 
@@ -286,7 +297,6 @@ table .value{
     }
     body{
         background-color: var(--white);
-        /* height: 500vh; */
     }
     .prep_time{
         width: 275px;
