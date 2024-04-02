@@ -31,7 +31,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-In this project, I did repeat a lot of the same previous learnings, such as CSS Flexbox, and organizing layouts. This time I did make use of REM units for pixel sizes as I was told that it improves accessibility. I learnt a lot more about optimizing layouts for various screen sizes, which is reflected in the multiple media queries that I created. Lastly, I made use of a table, something that I've only ever done on Freecodecamp.
+In this project, I did repeat a lot of the same previous learnings, such as CSS Flexbox, and organizing layouts. This time I did make use of REM units for pixel sizes as I was told that it improves accessibility. I learnt a lot more about optimizing layouts for various screen sizes, which is reflected in the multiple media queries that I created. Lastly, I made use of a table, something that I've only ever done on Freecodecamp. I also learnt that media queries need to be in descending order of screen sizes? I was having issues with the media queries not taking effect but doing the above seemed to fix the issue
 
 ### Continued development
 
