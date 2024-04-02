@@ -233,7 +233,22 @@ table .value{
 }
 
 /* adjusting for various screen sizes on mobile */
-@media screen and (max-width: 426px){
+/* media query for screen sizes need to be in order? From largest to smallest */
+
+@media only screen and (max-width: 750px){
+    .container{
+        width: 600px;
+    }
+    .prep_time{
+        width: 500px;
+    }
+    img{
+        border-radius: 10px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 426px){
     .container{
         width: 425px;
         margin: 0;
@@ -251,8 +266,9 @@ table .value{
         width: 425px;
     }
 }
+
 /* 376 px to trigger it at 375px */
-@media screen and (max-width: 376px){
+@media only screen and (max-width: 376px){
     .container{
         width: 375px;
         margin: 0;
@@ -261,7 +277,6 @@ table .value{
     }
     body{
         background-color: var(--white);
-        /* height: 500vh; */
     }
     .prep_time{
         /* targets the rose coloured box */
@@ -273,7 +288,7 @@ table .value{
     }
 }
 
-@media screen and (max-width: 321px){
+@media only screen and (max-width: 321px){
     .container{
         width: 320px;
         margin: 0;
@@ -292,23 +307,3 @@ table .value{
         width: 320px;
     }
 }
-
-/* extra for desktop? */
-@media screen and (max-width: 750px){
-    .container{
-        width: 600px;
-    }
-    .prep_time{
-        width: 500px;
-    }
-    img{
-        border-radius: 10px;
-        width: 500px;
-    }
-}
-
-
-
-
-
-
