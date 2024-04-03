@@ -22,7 +22,7 @@
 body{
     /* All this to target the class = "container" div inside the body */
     /* centres the class=container div element */
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,6 +246,12 @@ table .value{
         border-radius: 10px;
         width: 500px;
     }
+    *{
+        /* bullet point invisible due to 0 padding */
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 }
 
 @media only screen and (max-width: 426px){
@@ -254,16 +260,24 @@ table .value{
         margin: 0;
         /* top, right, bottom, left */
         padding: 0 1rem 1rem 1rem;
+        border-radius: 0;
     }
     body{
         background-color: var(--white);
+        font-size: 0.9rem;
     }
     .prep_time{
         width: 375px;
     }
     img{
         border-radius: 0;
-        width: 400px;
+        width: 425px;
+    }
+    *{
+        /* bullet point invisible due to 0 padding */
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
 }
 
@@ -273,18 +287,27 @@ table .value{
         width: 375px;
         margin: 0;
         /* top, right, bottom, left */
+        /* padding: 0; */
         padding: 0 1rem 1rem 1rem;
+        border-radius: 0;
     }
     body{
         background-color: var(--white);
+        font-size: 0.9rem;
     }
     .prep_time{
         /* targets the rose coloured box */
-        width: 310px;
+        width: 350px;
     }
     img{
         border-radius: 0;
         width: 375px;
+    }
+    *{
+        /* bullet point invisible due to 0 padding */
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
 }
 
@@ -294,9 +317,11 @@ table .value{
         margin: 0;
         /* top, right, bottom, left */
         padding: 0 1rem 1rem 1rem;
+        border-radius: 0;
     }
     body{
         background-color: var(--white);
+        font-size: 0.9rem;
     }
     .prep_time{
         width: 275px;
@@ -304,5 +329,11 @@ table .value{
     img{
         border-radius: 0;
         width: 320px;
+    }
+    *{
+        /* bullet point invisible due to 0 padding */
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
 }
