@@ -22,7 +22,7 @@
 body{
     /* All this to target the class = "container" div inside the body */
     /* centres the class=container div element */
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
